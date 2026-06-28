@@ -1,0 +1,82 @@
+﻿@model List<OrderBot.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Tablero de Cocina";
+}
+
+<div style="padding:20px; font-family:Arial, sans-serif;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+        <h2 style="color:#1F4E79;">Tablero de Cocina</h2>
+        <div style="display:flex; gap:10px;">
+            <a href="/Admin" style="padding:10px 20px; background:#666; color:white; border-radius:8px; text-decoration:none;">← Panel</a>
+            <button onclick="location.reload()" style="padding:10px 20px; background:#2E75B6; color:white; border-radius:8px; border:none; cursor:pointer;">↻ Actualizar</button>
+        </div>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div style="text-align:center; padding:60px; background:white; border-radius:12px; color:#666;">
+            <div style="font-size:48px; margin-bottom:16px;">✓</div>
+            <div style="font-size:18px;">No hay pedidos pendientes</div>
+        </div>
+    }
+    else
+    {
+        <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:16px;">
+            @foreach (var pedido in Model)
+            {
+                <div style="background:white; border-radius:12px; padding:20px; box-shadow:0 2px 8px rgba(0,0,0,0.1); border-left:4px solid @(pedido.Estado == "Pendiente" ? "#E8593C" : "#F0AD4E");">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                        <span style="font-weight:bold; font-size:18px; color:#1F4E79;">Pedido #@pedido.Id</span>
+                        <span style="padding:4px 10px; border-radius:20px; font-size:12px;
+                            background:@(pedido.Estado == "Pendiente" ? "#FFF3CD" : "#CCE5FF");
+                            color:@(pedido.Estado == "Pendiente" ? "#856404" : "#004085");">
+                            @pedido.Estado
+                        </span>
+                    </div>
+                    <div style="font-size:13px; color:#666; margin-bottom:12px;">
+                        👤 @pedido.ClienteNombre · @pedido.FechaPedido.ToString("HH:mm")
+                    </div>
+                    <div style="margin-bottom:16px;">
+                        @foreach (var detalle in pedido.Detalles)
+                        {
+                            <div style="display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #f0f0f0; font-size:14px;">
+                                <span>@detalle.Cantidad× @detalle.Producto?.Nombre</span>
+                                <span style="color:#666;">S/ @detalle.Subtotal</span>
+                            </div>
+                        }
+                    </div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px;">
+                        <span style="font-weight:bold; color:#1F4E79;">Total: S/ @pedido.Total</span>
+                        <div style="display:flex; gap:6px;">
+                            @if (pedido.Estado == "Pendiente")
+                            {
+                                <form method="post" action="/Admin/CambiarEstado">
+                                    <input type="hidden" name="id" value="@pedido.Id" />
+                                    <input type="hidden" name="estado" value="En preparación" />
+                                    <button type="submit" style="padding:6px 12px; background:#2E75B6; color:white; border:none; border-radius:6px; cursor:pointer; font-size:12px;">
+                                        Preparar
+                                    </button>
+                                </form>
+                            }
+                            @if (pedido.Estado == "En preparación")
+                            {
+                                <form method="post" action="/Admin/CambiarEstado">
+                                    <input type="hidden" name="id" value="@pedido.Id" />
+                                    <input type="hidden" name="estado" value="Entregado" />
+                                    <button type="submit" style="padding:6px 12px; background:#1D9E75; color:white; border:none; border-radius:6px; cursor:pointer; font-size:12px;">
+                                        Entregar
+                                    </button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<script>
+    setTimeout(() => location.reload(), 30000);
+</script>

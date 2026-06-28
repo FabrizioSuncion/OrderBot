@@ -1,0 +1,51 @@
+﻿@model List<OrderBot.Models.Producto>
+
+@{
+    ViewData["Title"] = "Gestión de Productos";
+}
+
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+        <h2 style="color:#1F4E79;">Gestión de Productos</h2>
+        <div style="display:flex; gap:10px;">
+            <a href="/Admin" style="padding:10px 20px; background:#666; color:white; border-radius:8px; text-decoration:none;">← Panel</a>
+            <a href="/Admin/CrearProducto" style="padding:10px 20px; background:#1D9E75; color:white; border-radius:8px; text-decoration:none;">+ Nuevo Producto</a>
+        </div>
+    </div>
+
+    <table style="width:100%; border-collapse:collapse; background:white; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+        <thead>
+            <tr style="background:#2E75B6; color:white;">
+                <th style="padding:12px; text-align:left;">Nombre</th>
+                <th style="padding:12px; text-align:left;">Categoría</th>
+                <th style="padding:12px; text-align:left;">Precio</th>
+                <th style="padding:12px; text-align:left;">Disponible</th>
+                <th style="padding:12px; text-align:left;">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var producto in Model)
+            {
+                <tr style="border-bottom:1px solid #eee;">
+                    <td style="padding:12px;">@producto.Nombre</td>
+                    <td style="padding:12px;">@(producto.Categoria?.Nombre ?? "-")</td>
+                    <td style="padding:12px;">S/ @producto.Precio</td>
+                    <td style="padding:12px;">
+                        <span style="padding:4px 10px; border-radius:20px; font-size:12px;
+                            background:@(producto.Disponible ? "#D4EDDA" : "#F8D7DA");
+                            color:@(producto.Disponible ? "#155724" : "#721C24");">
+                            @(producto.Disponible ? "Sí" : "No")
+                        </span>
+                    </td>
+                    <td style="padding:12px;">
+                        <a href="/Admin/EliminarProducto/@producto.Id"
+                           onclick="return confirm('¿Eliminar este producto?')"
+                           style="padding:6px 12px; background:#E8593C; color:white; border-radius:6px; text-decoration:none; font-size:13px;">
+                            Eliminar
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

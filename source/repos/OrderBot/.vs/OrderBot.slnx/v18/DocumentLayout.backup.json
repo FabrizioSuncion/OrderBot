@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\fabri\\source\\repos\\OrderBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\views\\admin\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\views\\admin\\cocina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\views\\admin\\crearproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\views\\admin\\crearproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\views\\admin\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\views\\admin\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|c:\\users\\fabri\\source\\repos\\orderbot\\orderbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{889DA5C1-C9EC-4051-BD01-7090EB44B47C}|OrderBot\\OrderBot.csproj|solutionrelative:orderbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -57,16 +81,94 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 172,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cocina.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\Cocina.cshtml",
+              "RelativeDocumentMoniker": "OrderBot\\Views\\Admin\\Cocina.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\Cocina.cshtml",
+              "RelativeToolTip": "OrderBot\\Views\\Admin\\Cocina.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-28T01:47:45.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\CrearProducto.cshtml",
+              "RelativeDocumentMoniker": "OrderBot\\Views\\Admin\\CrearProducto.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\CrearProducto.cshtml",
+              "RelativeToolTip": "OrderBot\\Views\\Admin\\CrearProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-28T01:47:13.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Productos.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\Productos.cshtml",
+              "RelativeDocumentMoniker": "OrderBot\\Views\\Admin\\Productos.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\Productos.cshtml",
+              "RelativeToolTip": "OrderBot\\Views\\Admin\\Productos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-28T01:45:15.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "OrderBot\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "OrderBot\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-28T01:44:27.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "OrderBot\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "OrderBot\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T01:42:13.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\.gitignore",
+              "RelativeDocumentMoniker": "OrderBot\\.gitignore",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\.gitignore",
+              "RelativeToolTip": "OrderBot\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-28T01:21:21.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Views\\Chat\\Index.cshtml",
               "RelativeDocumentMoniker": "OrderBot\\Views\\Chat\\Index.cshtml",
@@ -79,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "OrderBot\\Controllers\\ChatController.cs",
@@ -92,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "20260628003207_AddObservacionesDetalle.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Migrations\\20260628003207_AddObservacionesDetalle.cs",
               "RelativeDocumentMoniker": "OrderBot\\Migrations\\20260628003207_AddObservacionesDetalle.cs",
@@ -105,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ChatbotService.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Services\\ChatbotService.cs",
               "RelativeDocumentMoniker": "OrderBot\\Services\\ChatbotService.cs",
@@ -118,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Program.cs",
               "RelativeDocumentMoniker": "OrderBot\\Program.cs",
@@ -131,20 +233,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\appsettings.json",
               "RelativeDocumentMoniker": "OrderBot\\appsettings.json",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\appsettings.json",
               "RelativeToolTip": "OrderBot\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-28T00:09:07.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "OrderBot\\Models\\Categoria.cs",
@@ -157,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "OrderBot\\Data\\ApplicationDbContext.cs",
@@ -170,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "20260628001059_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Migrations\\20260628001059_InitialCreate.cs",
               "RelativeDocumentMoniker": "OrderBot\\Migrations\\20260628001059_InitialCreate.cs",
@@ -183,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Conversacion.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Models\\Conversacion.cs",
               "RelativeDocumentMoniker": "OrderBot\\Models\\Conversacion.cs",
@@ -196,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "DetallePedido.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Models\\DetallePedido.cs",
               "RelativeDocumentMoniker": "OrderBot\\Models\\DetallePedido.cs",
@@ -209,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "OrderBot\\Models\\Pedido.cs",
@@ -222,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\OrderBot\\OrderBot\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "OrderBot\\Models\\Producto.cs",
@@ -232,6 +334,16 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T00:04:31.992Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 228,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
